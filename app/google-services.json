@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399725071888",
+    "firebase_url": "https://mealmanager-7c40b.firebaseio.com",
+    "project_id": "mealmanager-7c40b",
+    "storage_bucket": "mealmanager-7c40b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399725071888:android:e8b24e7ccae20d97c6c495",
+        "android_client_info": {
+          "package_name": "com.example.mealmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399725071888-1am1tr158gc0hm0d8ea7ecb9smg16p30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mealmanager",
+            "certificate_hash": "80e569026cd555f75b22e9a39d58e330ada24662"
+          }
+        },
+        {
+          "client_id": "399725071888-sp7lmsttc1k3bim8b3ae11ndp6856tvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfZwFJjIJ-Sxc8zI3a_gsgPWn8QLhljXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399725071888-sp7lmsttc1k3bim8b3ae11ndp6856tvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

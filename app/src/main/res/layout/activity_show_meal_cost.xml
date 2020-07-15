@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowMealCost"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10sp">
+
+    <Spinner
+        android:id="@+id/mealYear"
+        android:layout_marginHorizontal="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="@drawable/dotted_square_view"
+        android:layout_marginVertical="10sp"></Spinner>
+
+
+    <Spinner
+        android:id="@+id/mealMonth"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginHorizontal="30sp"
+        android:background="@drawable/dotted_square_view"
+        android:layout_marginVertical="10sp"></Spinner>
+
+    <TextView
+        android:id="@+id/selectSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/select_spinner"></TextView>
+
+
+    <ListView
+        android:id="@+id/mealCostListView"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
